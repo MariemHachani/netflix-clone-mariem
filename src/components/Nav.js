@@ -9,7 +9,7 @@ function Nav() {
             } else handleShow(false);
         });
         return () => {
-            window.removeEventListener("scroll");
+            window.removeEventListener("scroll", () => { handleShow(false); });
         }
     }, [])
     return (

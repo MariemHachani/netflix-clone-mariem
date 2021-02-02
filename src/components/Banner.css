@@ -49,3 +49,16 @@
         #111
     );
 }
+.banner__error{
+    color:white;
+    object-fit: contain;
+    height: 448px;
+    background-size: "cover";
+    background-position: "center center";
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(109, 4, 4, 0.61),
+        #111
+    );
+}

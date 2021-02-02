@@ -1,0 +1,16 @@
+.review__row{
+    margin-left: 30px;
+    color:white;
+}
+.review__content {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.review__avatar{
+    object-fit: contain;
+    width: 50px;
+}
+.review__details{
+    padding: 10px;
+}
